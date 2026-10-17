@@ -76,10 +76,12 @@ const alKahfi = {
 
 ---
 
-### ✨ Badges & Achievements
+### 🏆 GitHub Achievements
 
 <div align="center">
-  <img src="./assets/shiny-badges.svg" alt="Holographic Claimed Badges" width="100%" />
+  <a href="https://github.com/Kafiii0?tab=achievements">
+    <img src="./assets/badges/achievements-card.png" alt="GitHub Achievements" />
+  </a>
 </div>
 
 ---
