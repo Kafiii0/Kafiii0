@@ -4,11 +4,11 @@
 
 ---
 
-### 💫 About Me
+### About Me
 
-> **"Bisa Inspect Element langsung ngerasa Mr. Robot 🕵️‍♂️"**
+> **"Bisa Inspect Element langsung ngerasa Mr. Robot"**
 
-Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang 🛡️💻** yang suka ngulik arsitektur web dan sistem jaringan.
+Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang** yang suka ngulik arsitektur web dan sistem jaringan.
 
 - 🔍 **Networking & Security**: Hobi sniffing packet data pake Wireshark & explore traffic analisis (*PcapAnalyzer*).
 - 🎨 **CSS Struggle**: Habis 3 jam cuma buat nengahin posisi `<div>` biar presisi di semua layar.
@@ -19,7 +19,7 @@ Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang
 
 ---
 
-### 🌐 Socials & Connect
+### Socials & Connect
 
 <p align="left">
   <a href="https://alkahfi.my.id" target="_blank">
@@ -45,23 +45,23 @@ Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang
 
 ---
 
-### 💻 Tech Stack & Tools
+### Tech Stack
 
-#### 🚀 Languages & Frameworks
+#### Languages & Frameworks
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,react,nextjs,go,nodejs,express,python" alt="Languages & Frameworks" />
   </a>
 </p>
 
-#### 🗄️ Backend & Databases
+#### Backend & Databases
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,supabase,sqlite,firebase" alt="Backend & Databases" />
   </a>
 </p>
 
-#### 🛠️ Tools & Environments
+#### Tools & Environments
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker,postman,figma,discord" alt="Tools & Environments" />
@@ -70,7 +70,7 @@ Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang
 
 ---
 
-### 🏆 Achievements
+### Achievements
 
 <div align="center">
   <a href="https://github.com/Kafiii0?tab=achievements">
@@ -80,7 +80,7 @@ Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <div align="center">
   <p align="center">
@@ -93,7 +93,7 @@ Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang
 
 ---
 
-### 🐍 Contribution Activity (Snake Game)
+### Contribution Activity
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/github-contribution-grid-snake.svg" alt="Snake Contribution Animation" width="100%" />
