@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/matrix-header.png" alt="KV Matrix Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/matrix-header.gif" alt="KV Matrix Header" width="100%" />
 </div>
 
 ---
