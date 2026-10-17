@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/terminal-header.svg" alt="KV Terminal Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/terminal-header.png" alt="KV Terminal Header" width="100%" />
 </div>
 
 ---
@@ -80,7 +80,7 @@ const alKahfi = {
 
 <div align="center">
   <a href="https://github.com/Kafiii0?tab=achievements">
-    <img src="./assets/badges/achievements-card.png" alt="GitHub Achievements" />
+    <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/badges/achievements-card.png" alt="GitHub Achievements" />
   </a>
 </div>
 
@@ -107,7 +107,7 @@ const alKahfi = {
 ### 🐍 Contribution Activity (Snake Game)
 
 <div align="center">
-  <img src="./github-contribution-grid-snake.svg" alt="Snake Contribution Animation" width="100%" />
+  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/github-contribution-grid-snake.svg" alt="Snake Contribution Animation" width="100%" />
 </div>
 
 
