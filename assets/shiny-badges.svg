@@ -1,210 +1,277 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 170" width="920" height="170">
   <defs>
-    <!-- Background Card Gradient -->
+    <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0a0f1d"/>
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080c14"/>
     </linearGradient>
 
-    <!-- Holographic Rainbow Foil Sweep -->
-    <linearGradient id="rainbowFoil" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Holographic Rainbow Foil Reflection -->
+    <linearGradient id="foilSheen" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
-      <stop offset="20%" stop-color="rgba(56, 189, 248, 0.4)"/>
-      <stop offset="40%" stop-color="rgba(236, 72, 153, 0.5)"/>
-      <stop offset="60%" stop-color="rgba(250, 204, 21, 0.6)"/>
-      <stop offset="80%" stop-color="rgba(34, 197, 94, 0.5)"/>
+      <stop offset="15%" stop-color="rgba(56, 189, 248, 0.4)"/>
+      <stop offset="35%" stop-color="rgba(236, 72, 153, 0.6)"/>
+      <stop offset="55%" stop-color="rgba(250, 204, 21, 0.7)"/>
+      <stop offset="75%" stop-color="rgba(34, 197, 94, 0.5)"/>
+      <stop offset="90%" stop-color="rgba(168, 85, 247, 0.4)"/>
       <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
     </linearGradient>
 
-    <!-- Glowing Filters -->
-    <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="purpleGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="pinkGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <!-- Metallic Badge Borders -->
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/><stop offset="50%" stop-color="#ca8a04"/><stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <linearGradient id="cyanBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#0284c7"/><stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="purpleBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/><stop offset="50%" stop-color="#7e22ce"/><stop offset="100%" stop-color="#f3e8ff"/>
+    </linearGradient>
+    <linearGradient id="pinkBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/><stop offset="50%" stop-color="#be185d"/><stop offset="100%" stop-color="#fce7f3"/>
+    </linearGradient>
+    <linearGradient id="orangeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/><stop offset="50%" stop-color="#c2410c"/><stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="emeraldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/><stop offset="50%" stop-color="#15803d"/><stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="discordBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/><stop offset="50%" stop-color="#4338ca"/><stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
 
-    <!-- Circular Badge Clips -->
-    <clipPath id="c1"><circle cx="65" cy="65" r="38"/></clipPath>
-    <clipPath id="c2"><circle cx="175" cy="65" r="38"/></clipPath>
-    <clipPath id="c3"><circle cx="285" cy="65" r="38"/></clipPath>
-    <clipPath id="c4"><circle cx="395" cy="65" r="38"/></clipPath>
-    <clipPath id="c5"><circle cx="505" cy="65" r="38"/></clipPath>
-    <clipPath id="c6"><circle cx="615" cy="65" r="38"/></clipPath>
-    <clipPath id="c7"><circle cx="725" cy="65" r="38"/></clipPath>
-    <clipPath id="c8"><circle cx="825" cy="65" r="38"/></clipPath>
+    <!-- Clip Paths for Circular Badges -->
+    <clipPath id="cp1"><circle cx="75" cy="70" r="44"/></clipPath>
+    <clipPath id="cp2"><circle cx="195" cy="70" r="44"/></clipPath>
+    <clipPath id="cp3"><circle cx="315" cy="70" r="44"/></clipPath>
+    <clipPath id="cp4"><circle cx="435" cy="70" r="44"/></clipPath>
+    <clipPath id="cp5"><circle cx="555" cy="70" r="44"/></clipPath>
+    <clipPath id="cp6"><circle cx="675" cy="70" r="44"/></clipPath>
+    <clipPath id="cp7"><circle cx="795" cy="70" r="44"/></clipPath>
+
+    <!-- Glow Filter -->
+    <filter id="intenseGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
 
   <style>
-    /* Sweeping holographic foil reflection */
-    @keyframes foilSweep {
-      0% { transform: translateX(-200px) rotate(30deg); }
-      40%, 100% { transform: translateX(250px) rotate(30deg); }
+    /* Sweeping holographic reflection */
+    @keyframes sheenMove {
+      0% { transform: translateX(-240px) rotate(28deg); }
+      45%, 100% { transform: translateX(300px) rotate(28deg); }
     }
 
-    /* Multi-phase blinking twinkle sparkles */
-    @keyframes twinkleA {
-      0%, 100% { opacity: 0; transform: scale(0.2) rotate(0deg); }
-      40%, 60% { opacity: 1; transform: scale(1.3) rotate(90deg); filter: drop-shadow(0 0 6px #ffffff); }
-    }
-    @keyframes twinkleB {
-      0%, 100% { opacity: 0; transform: scale(0.2) rotate(45deg); }
-      40%, 60% { opacity: 1; transform: scale(1.4) rotate(135deg); filter: drop-shadow(0 0 7px #facc15); }
-    }
-    @keyframes twinkleC {
-      0%, 100% { opacity: 0; transform: scale(0.2) rotate(20deg); }
-      40%, 60% { opacity: 1; transform: scale(1.3) rotate(110deg); filter: drop-shadow(0 0 6px #38bdf8); }
-    }
+    /* Twinkling 4-point sparkle stars */
+    @keyframes tw1 { 0%, 100% { opacity: 0; transform: scale(0.2) rotate(0deg); } 50% { opacity: 1; transform: scale(1.3) rotate(90deg); filter: drop-shadow(0 0 6px #ffffff); } }
+    @keyframes tw2 { 0%, 100% { opacity: 0; transform: scale(0.2) rotate(45deg); } 50% { opacity: 1; transform: scale(1.4) rotate(135deg); filter: drop-shadow(0 0 7px #fde047); } }
+    @keyframes tw3 { 0%, 100% { opacity: 0; transform: scale(0.2) rotate(20deg); } 50% { opacity: 1; transform: scale(1.3) rotate(110deg); filter: drop-shadow(0 0 7px #38bdf8); } }
+    @keyframes tw4 { 0%, 100% { opacity: 0; transform: scale(0.2) rotate(30deg); } 50% { opacity: 1; transform: scale(1.3) rotate(120deg); filter: drop-shadow(0 0 7px #ec4899); } }
 
-    /* Floating badges effect */
-    @keyframes badgeFloat {
-      0%, 100% { transform: translateY(0); }
+    /* Float / hover animation */
+    @keyframes floatAll {
+      0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-3px); }
     }
 
-    .shimmer {
-      animation: foilSweep 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    .shimmer-rect {
+      animation: sheenMove 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
       transform-origin: center;
     }
 
-    .sp1 { animation: twinkleA 2.2s ease-in-out infinite; transform-origin: 90px 38px; }
-    .sp2 { animation: twinkleB 2.6s ease-in-out 0.4s infinite; transform-origin: 200px 38px; }
-    .sp3 { animation: twinkleC 2.3s ease-in-out 0.8s infinite; transform-origin: 310px 38px; }
-    .sp4 { animation: twinkleA 2.5s ease-in-out 1.2s infinite; transform-origin: 420px 38px; }
-    .sp5 { animation: twinkleB 2.4s ease-in-out 0.6s infinite; transform-origin: 530px 38px; }
-    .sp6 { animation: twinkleC 2.7s ease-in-out 1.4s infinite; transform-origin: 640px 38px; }
-    .sp7 { animation: twinkleA 2.3s ease-in-out 0.9s infinite; transform-origin: 750px 38px; }
-    .sp8 { animation: twinkleB 2.8s ease-in-out 0.2s infinite; transform-origin: 850px 38px; }
+    .s-star1 { animation: tw1 2s ease-in-out infinite; transform-origin: 105px 40px; }
+    .s-star2 { animation: tw2 2.3s ease-in-out 0.4s infinite; transform-origin: 225px 40px; }
+    .s-star3 { animation: tw3 2.1s ease-in-out 0.8s infinite; transform-origin: 345px 40px; }
+    .s-star4 { animation: tw2 2.4s ease-in-out 1.2s infinite; transform-origin: 465px 40px; }
+    .s-star5 { animation: tw1 2.2s ease-in-out 0.6s infinite; transform-origin: 585px 40px; }
+    .s-star6 { animation: tw4 2.5s ease-in-out 1s infinite; transform-origin: 705px 40px; }
+    .s-star7 { animation: tw3 2.3s ease-in-out 0.3s infinite; transform-origin: 825px 40px; }
 
-    .lbl-title {
+    .tag-title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 11px;
+      font-size: 11.5px;
       font-weight: 800;
       fill: #ffffff;
       text-anchor: middle;
       letter-spacing: 0.3px;
     }
-    .lbl-sub {
+    .tag-sub {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 9px;
-      font-weight: 600;
+      font-size: 9.5px;
+      font-weight: 700;
       fill: #94a3b8;
       text-anchor: middle;
     }
   </style>
 
-  <!-- Container Frame -->
-  <rect x="2" y="2" width="876" height="146" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.4"/>
+  <!-- Container Box -->
+  <rect x="2" y="2" width="916" height="166" rx="18" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.8"/>
 
-  <!-- ================= 1. PULL SHARK (Gold Tier) ================= -->
+  <!-- ================= 1. PULL SHARK (Detailed Cartoon Shark + Gold Medallion) ================= -->
   <g>
-    <circle cx="65" cy="65" r="39" fill="#1e293b" stroke="#f59e0b" stroke-width="2.6" filter="url(#goldGlow)"/>
-    <circle cx="65" cy="65" r="36" fill="#0f172a"/>
-    <!-- Shark Glyph -->
-    <path fill="#38bdf8" d="M65 42c-11 0-19 7-19 16 0 7 5 13 13 15l6 14 6-14c8-2 13-8 13-15 0-9-8-16-19-16zm-2 22c-3 0-5.5-2.5-5.5-5.5s2.5-5.5 5.5-5.5 5.5 2.5 5.5 5.5-2.5 5.5-5.5 5.5zm9-6c-1.5 0-2.8-1.3-2.8-2.8s1.3-2.8 2.8-2.8 2.8 1.3 2.8 2.8-1.3 2.8-2.8 2.8z"/>
-    <!-- Holographic sweep -->
-    <g clip-path="url(#c1)"><rect class="shimmer" x="0" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <!-- Sparkle -->
-    <polygon class="sp1" points="90,32 92,36 96,38 92,40 90,44 88,40 84,38 88,36" fill="#facc15"/>
-    <text x="65" y="119" class="lbl-title">Pull Shark</text>
-    <text x="65" y="132" class="lbl-sub">x2 Gold</text>
+    <!-- Outer Glow & Golden Ring -->
+    <circle cx="75" cy="70" r="45" fill="none" stroke="url(#goldBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="75" cy="70" r="42" fill="#0f172a"/>
+    <!-- Ocean Wave Pattern Background -->
+    <path fill="#1e3a5f" d="M35 75q10-8 20 0t20 0 20 0 20 0v35H35z" clip-path="url(#cp1)"/>
+    <!-- Pull Shark Body -->
+    <path fill="#0284c7" d="M75 42c-15 0-25 10-25 22 0 12 8 20 18 22l7 14 7-14c10-2 18-10 18-22 0-12-10-22-25-22z"/>
+    <!-- Shark White Underbelly -->
+    <path fill="#f8fafc" d="M75 60c-8 0-14 6-14 14 0 6 4 10 10 11l4 9 4-9c6-1 10-5 10-11 0-8-6-14-14-14z"/>
+    <!-- Cute Goggles -->
+    <ellipse cx="68" cy="56" rx="6" ry="5" fill="#facc15" stroke="#ca8a04" stroke-width="1.5"/>
+    <ellipse cx="68" cy="56" rx="3.5" ry="3" fill="#38bdf8"/>
+    <circle cx="67" cy="55" r="1.2" fill="#ffffff"/>
+    <ellipse cx="82" cy="56" rx="6" ry="5" fill="#facc15" stroke="#ca8a04" stroke-width="1.5"/>
+    <ellipse cx="82" cy="56" rx="3.5" ry="3" fill="#38bdf8"/>
+    <circle cx="81" cy="55" r="1.2" fill="#ffffff"/>
+    <!-- Goggle Strap -->
+    <path fill="none" stroke="#ca8a04" stroke-width="1.8" d="M54 58h8m16 0h16"/>
+    <!-- Gold Medal Trophy Star around Shark -->
+    <circle cx="75" cy="80" r="4.5" fill="#f59e0b" stroke="#fef08a" stroke-width="1"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp1)"><rect class="shimmer-rect" x="0" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star1" points="105,34 107,38 111,40 107,42 105,46 103,42 99,40 103,38" fill="#fef08a"/>
+    <text x="75" y="132" class="tag-title">Pull Shark</text>
+    <text x="75" y="146" class="tag-sub" fill="#facc15">x2 Gold Tier</text>
   </g>
 
-  <!-- ================= 2. ACTIVE DEVELOPER (Discord Verified) ================= -->
+  <!-- ================= 2. ACTIVE DEVELOPER (Discord Bot Robot Visor + Cyan Glow) ================= -->
   <g>
-    <circle cx="175" cy="65" r="39" fill="#1e293b" stroke="#5865F2" stroke-width="2.6" filter="url(#cyanGlow)"/>
-    <circle cx="175" cy="65" r="36" fill="#0f172a"/>
-    <!-- Discord Dev Badge -->
-    <path fill="#5865F2" d="M175 42l4.5 12 12.5 1.5-9.5 8.5 2.5 13-10-6-10 6 2.5-13-9.5-8.5 12.5-1.5z"/>
-    <circle cx="175" cy="63" r="5" fill="#22c55e" filter="url(#cyanGlow)"/>
-    <g clip-path="url(#c2)"><rect class="shimmer" x="110" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp2" points="200,32 202,36 206,38 202,40 200,44 198,40 194,38 198,36" fill="#ffffff"/>
-    <text x="175" y="119" class="lbl-title">Active Dev</text>
-    <text x="175" y="132" class="lbl-sub">Verified</text>
+    <circle cx="195" cy="70" r="45" fill="none" stroke="url(#discordBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="195" cy="70" r="42" fill="#0f172a"/>
+    <!-- Discord Blurple Hexagon / Shield Plate -->
+    <polygon points="195,38 225,50 225,82 195,96 165,82 165,50" fill="#312e81" stroke="#6366f1" stroke-width="1.5"/>
+    <!-- Discord Bot Head -->
+    <rect x="177" y="52" width="36" height="28" rx="8" fill="#5865F2"/>
+    <!-- Glowing Visor -->
+    <rect x="183" y="60" width="24" height="11" rx="4" fill="#22c55e" filter="url(#intenseGlow)"/>
+    <!-- Robot Antenna -->
+    <circle cx="195" cy="46" r="3.5" fill="#4ade80"/>
+    <line x1="195" y1="48" x2="195" y2="52" stroke="#4ade80" stroke-width="2"/>
+    <!-- Binary / Circuit dots -->
+    <circle cx="188" cy="65" r="1.5" fill="#ffffff"/>
+    <circle cx="202" cy="65" r="1.5" fill="#ffffff"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp2)"><rect class="shimmer-rect" x="120" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star2" points="225,34 227,38 231,40 227,42 225,46 223,42 219,40 223,38" fill="#4ade80"/>
+    <text x="195" y="132" class="tag-title">Active Dev</text>
+    <text x="195" y="146" class="tag-sub" fill="#38bdf8">Verified Bot</text>
   </g>
 
-  <!-- ================= 3. GALAXY BRAIN (Cosmic Gold) ================= -->
+  <!-- ================= 3. GALAXY BRAIN (Cosmic Violet Brain + Orbital Ring) ================= -->
   <g>
-    <circle cx="285" cy="65" r="39" fill="#1e293b" stroke="#a855f7" stroke-width="2.6" filter="url(#purpleGlow)"/>
-    <circle cx="285" cy="65" r="36" fill="#0f172a"/>
-    <!-- Galaxy Spiral & Brain -->
-    <path fill="#c084fc" d="M285 43c-8.5 0-15 6.5-15 15 0 6 3.5 11 8.5 13.5l1.5 6.5h10l1.5-6.5c5-2.5 8.5-7.5 8.5-13.5 0-8.5-6.5-15-15-15zm-4 13c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5-2.5-1-2.5-2.5 1-2.5 2.5-2.5zm8 0c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5-2.5-1-2.5-2.5 1-2.5 2.5-2.5z"/>
-    <g clip-path="url(#c3)"><rect class="shimmer" x="220" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp3" points="310,32 312,36 316,38 312,40 310,44 308,40 304,38 308,36" fill="#e879f9"/>
-    <text x="285" y="119" class="lbl-title">Galaxy Brain</text>
-    <text x="285" y="132" class="lbl-sub">Answerer</text>
+    <circle cx="315" cy="70" r="45" fill="none" stroke="url(#purpleBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="315" cy="70" r="42" fill="#0f172a"/>
+    <!-- Nebula Dust background -->
+    <circle cx="315" cy="70" r="28" fill="#581c87" opacity="0.7"/>
+    <!-- Cosmic Brain Lobe -->
+    <path fill="#c084fc" d="M315 46c-9 0-16 6-16 14 0 5 3 9 7 12l2 8h14l2-8c4-3 7-7 7-12 0-8-7-14-16-14zm-4 13c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5-2.5-1-2.5-2.5 1-2.5 2.5-2.5zm8 0c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5-2.5-1-2.5-2.5 1-2.5 2.5-2.5z"/>
+    <!-- Orbital Planet Ring -->
+    <ellipse cx="315" cy="68" rx="28" ry="8" fill="none" stroke="#f472b6" stroke-width="2.2" transform="rotate(-20 315 68)"/>
+    <!-- Glowing Core -->
+    <circle cx="315" cy="65" r="4" fill="#ffffff" filter="url(#intenseGlow)"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp3)"><rect class="shimmer-rect" x="240" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star3" points="345,34 347,38 351,40 347,42 345,46 343,42 339,40 343,38" fill="#e879f9"/>
+    <text x="315" y="132" class="tag-title">Galaxy Brain</text>
+    <text x="315" y="146" class="tag-sub" fill="#c084fc">Cosmic Tier</text>
   </g>
 
-  <!-- ================= 4. QUICKDRAW (Lightning Flash) ================= -->
+  <!-- ================= 4. QUICKDRAW (Golden Revolver Target + High-Voltage Bolt) ================= -->
   <g>
-    <circle cx="395" cy="65" r="39" fill="#1e293b" stroke="#eab308" stroke-width="2.6" filter="url(#goldGlow)"/>
-    <circle cx="395" cy="65" r="36" fill="#0f172a"/>
-    <path fill="#facc15" d="M397 42l-12 18h9l-4 22 17-24h-9l9-16z"/>
-    <g clip-path="url(#c4)"><rect class="shimmer" x="330" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp4" points="420,32 422,36 426,38 422,40 420,44 418,40 414,38 418,36" fill="#fde047"/>
-    <text x="395" y="119" class="lbl-title">Quickdraw</text>
-    <text x="395" y="132" class="lbl-sub">Fast Close</text>
+    <circle cx="435" cy="70" r="45" fill="none" stroke="url(#goldBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="435" cy="70" r="42" fill="#0f172a"/>
+    <!-- Bullseye Target Ring -->
+    <circle cx="435" cy="70" r="28" fill="none" stroke="#854d0e" stroke-width="2" stroke-dasharray="6,3"/>
+    <circle cx="435" cy="70" r="18" fill="none" stroke="#eab308" stroke-width="1.5"/>
+    <!-- High Voltage Electric Bolt -->
+    <polygon points="441,40 422,64 435,64 429,94 452,60 439,60" fill="#facc15" stroke="#ffffff" stroke-width="1.2" filter="url(#intenseGlow)"/>
+    <!-- Electric Sparks -->
+    <circle cx="423" cy="50" r="1.8" fill="#fef08a"/>
+    <circle cx="449" cy="80" r="1.8" fill="#fef08a"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp4)"><rect class="shimmer-rect" x="360" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star4" points="465,34 467,38 471,40 467,42 465,46 463,42 459,40 463,38" fill="#fef08a"/>
+    <text x="435" y="132" class="tag-title">Quickdraw</text>
+    <text x="435" y="146" class="tag-sub" fill="#facc15">Lightning Fast</text>
   </g>
 
-  <!-- ================= 5. PAIR EXTRAORDINAIRE ================= -->
+  <!-- ================= 5. YOLO (Vibrant Space Rocket + Fire Exhaust) ================= -->
   <g>
-    <circle cx="505" cy="65" r="39" fill="#1e293b" stroke="#06b6d4" stroke-width="2.6" filter="url(#cyanGlow)"/>
-    <circle cx="505" cy="65" r="36" fill="#0f172a"/>
-    <circle cx="498" cy="58" r="7" fill="#38bdf8"/>
-    <circle cx="512" cy="58" r="7" fill="#818cf8"/>
-    <path fill="#38bdf8" d="M489 76c0-6 4-10 10-10h3c5 0 9 3 10 9v3h-23v-2z"/>
-    <path fill="#818cf8" d="M507 76c0-6 4-10 10-10h3c5 0 9 3 10 9v3h-23v-2z"/>
-    <g clip-path="url(#c5)"><rect class="shimmer" x="440" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp5" points="530,32 532,36 536,38 532,40 530,44 528,40 524,38 528,36" fill="#ffffff"/>
-    <text x="505" y="119" class="lbl-title">Pair Extra</text>
-    <text x="505" y="132" class="lbl-sub">Co-Author</text>
+    <circle cx="555" cy="70" r="45" fill="none" stroke="url(#orangeBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="555" cy="70" r="42" fill="#0f172a"/>
+    <!-- Starry background dots -->
+    <circle cx="540" cy="55" r="1.2" fill="#94a3b8"/>
+    <circle cx="570" cy="62" r="1.2" fill="#94a3b8"/>
+    <!-- Rocket Jet Exhaust Flame -->
+    <polygon points="555,80 549,97 555,93 561,97" fill="#ef4444"/>
+    <polygon points="555,82 551,93 555,90 559,93" fill="#f59e0b"/>
+    <polygon points="555,84 553,89 555,87 557,89" fill="#fef08a"/>
+    <!-- Rocket Fuselage -->
+    <path fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2" d="M555 42c-8 6-11 16-11 25 0 6 2 9 3 11l8-2 8 2c1-2 3-5 3-11 0-9-3-19-11-25z"/>
+    <!-- Red Nose Cone & Fins -->
+    <path fill="#ef4444" d="M555 42c-4 3-7 8-9 13h18c-2-5-5-10-9-13z"/>
+    <path fill="#ef4444" d="M544 70l-6 8h6zM566 70l6 8h-6z"/>
+    <!-- Blue Porthole Glass -->
+    <circle cx="555" cy="60" r="4" fill="#38bdf8" stroke="#0284c7" stroke-width="1.2"/>
+    <circle cx="554" cy="59" r="1.2" fill="#ffffff"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp5)"><rect class="shimmer-rect" x="480" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star5" points="585,34 587,38 591,40 587,42 585,46 583,42 579,40 583,38" fill="#fb923c"/>
+    <text x="555" y="132" class="tag-title">YOLO</text>
+    <text x="555" y="146" class="tag-sub" fill="#fb923c">Direct Ship</text>
   </g>
 
-  <!-- ================= 6. YOLO (Rocket Launch) ================= -->
+  <!-- ================= 6. DISCORD SERVER BOOSTER (3D Faceted Diamond Gem) ================= -->
   <g>
-    <circle cx="615" cy="65" r="39" fill="#1e293b" stroke="#f97316" stroke-width="2.6" filter="url(#goldGlow)"/>
-    <circle cx="615" cy="65" r="36" fill="#0f172a"/>
-    <!-- Rocket Glyph -->
-    <path fill="#fb923c" d="M615 42c-7 4-10 12-10 19 0 4 1 7 3 9l7-3 7 3c2-2 3-5 3-9 0-7-3-15-10-19zm-3 29l3 6 3-6-6 0z"/>
-    <circle cx="615" cy="56" r="3.5" fill="#ffffff"/>
-    <g clip-path="url(#c6)"><rect class="shimmer" x="550" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp6" points="640,32 642,36 646,38 642,40 640,44 638,40 634,38 638,36" fill="#fde047"/>
-    <text x="615" y="119" class="lbl-title">YOLO</text>
-    <text x="615" y="132" class="lbl-sub">Merged</text>
+    <circle cx="675" cy="70" r="45" fill="none" stroke="url(#pinkBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="675" cy="70" r="42" fill="#0f172a"/>
+    <!-- Radial Pink Aura -->
+    <circle cx="675" cy="70" r="28" fill="#831843" opacity="0.6"/>
+    <!-- 3D Faceted Diamond Cut -->
+    <!-- Top Table -->
+    <polygon points="665,54 685,54 675,44" fill="#fbcfe8"/>
+    <polygon points="653,54 665,54 675,44 659,47" fill="#f472b6"/>
+    <polygon points="685,54 697,54 691,47 675,44" fill="#ec4899"/>
+    <!-- Lower Pavilion Facets -->
+    <polygon points="653,54 665,54 675,86" fill="#db2777"/>
+    <polygon points="665,54 685,54 675,86" fill="#f472b6"/>
+    <polygon points="685,54 697,54 675,86" fill="#be185d"/>
+    <!-- Center Crystal Shimmer -->
+    <polygon points="670,54 680,54 675,76" fill="#ffffff" opacity="0.75"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp6)"><rect class="shimmer-rect" x="600" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star6" points="705,34 707,38 711,40 707,42 705,46 703,42 699,40 703,38" fill="#fbcfe8"/>
+    <text x="675" y="132" class="tag-title">Server Booster</text>
+    <text x="675" y="146" class="tag-sub" fill="#f472b6">Level 3 &bull; 24M</text>
   </g>
 
-  <!-- ================= 7. DISCORD NITRO BOOSTER ================= -->
+  <!-- ================= 7. HYPESQUAD BRAVERY (Glowing Radiant Crystal Crest) ================= -->
   <g>
-    <circle cx="725" cy="65" r="39" fill="#1e293b" stroke="#ec4899" stroke-width="2.6" filter="url(#pinkGlow)"/>
-    <circle cx="725" cy="65" r="36" fill="#0f172a"/>
-    <!-- Diamond Gem -->
-    <path fill="#f472b6" d="M725 44l14 13-14 24-14-24 14-13zm0 5l-8 7h16l-8-7zm-10 10l10 16 10-16h-20z"/>
-    <g clip-path="url(#c7)"><rect class="shimmer" x="660" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp7" points="750,32 752,36 756,38 752,40 750,44 748,40 744,38 748,36" fill="#ffffff"/>
-    <text x="725" y="119" class="lbl-title">Booster</text>
-    <text x="725" y="132" class="lbl-sub">24 Months</text>
-  </g>
-
-  <!-- ================= 8. HYPESQUAD (Discord Bravery) ================= -->
-  <g>
-    <circle cx="825" cy="65" r="39" fill="#1e293b" stroke="#8b5cf6" stroke-width="2.6" filter="url(#purpleGlow)"/>
-    <circle cx="825" cy="65" r="36" fill="#0f172a"/>
-    <!-- HypeSquad Cross / Shield Glyph -->
-    <path fill="#a78bfa" d="M825 43l12 12-5 5-7-7-7 7-5-5 12-12zm-12 20l7-7 7 7-7 14-7-14z"/>
-    <g clip-path="url(#c8)"><rect class="shimmer" x="760" y="10" width="70" height="140" fill="url(#rainbowFoil)" opacity="0.95"/></g>
-    <polygon class="sp8" points="850,32 852,36 856,38 852,40 850,44 848,40 844,38 848,36" fill="#facc15"/>
-    <text x="825" y="119" class="lbl-title">HypeSquad</text>
-    <text x="825" y="132" class="lbl-sub">Bravery</text>
+    <circle cx="795" cy="70" r="45" fill="none" stroke="url(#purpleBorder)" stroke-width="3" filter="url(#intenseGlow)"/>
+    <circle cx="795" cy="70" r="42" fill="#0f172a"/>
+    <!-- Radiating Ray Beams -->
+    <path fill="none" stroke="#7c3aed" stroke-width="1.4" d="M795 38v-6M795 102v6M763 70h-6M827 70h6M773 48l-5-5M817 92l5 5M773 92l-5 5M817 48l5-5" opacity="0.7"/>
+    <!-- HypeSquad Cross Blades / Crystal -->
+    <polygon points="795,46 809,60 803,66 795,58 787,66 781,60" fill="#a78bfa" filter="url(#intenseGlow)"/>
+    <polygon points="795,94 781,80 787,74 795,82 803,74 809,80" fill="#c4b5fd"/>
+    <polygon points="795,58 803,66 803,74 795,82 787,74 787,66" fill="#7c3aed"/>
+    <!-- Center Core Jewel -->
+    <polygon points="795,64 800,70 795,76 790,70" fill="#ffffff"/>
+    <!-- Holographic Rainbow Foil Sweep -->
+    <g clip-path="url(#cp7)"><rect class="shimmer-rect" x="720" y="10" width="80" height="150" fill="url(#foilSheen)" opacity="0.95"/></g>
+    <!-- Sparkle Star -->
+    <polygon class="s-star7" points="825,34 827,38 831,40 827,42 825,46 823,42 819,40 823,38" fill="#e879f9"/>
+    <text x="795" y="132" class="tag-title">HypeSquad</text>
+    <text x="795" y="146" class="tag-sub" fill="#a78bfa">Bravery Royal</text>
   </g>
 </svg>
