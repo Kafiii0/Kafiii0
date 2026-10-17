@@ -8,14 +8,13 @@
 
 > **"Bisa Inspect Element langsung ngerasa Mr. Robot"**
 
-Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang** yang suka ngulik arsitektur web dan sistem jaringan.
+Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula** yang suka ngulik arsitektur web dan sistem jaringan.
 
-- 🔍 **Networking & Security**: Hobi sniffing packet data pake Wireshark & explore traffic analisis (*PcapAnalyzer*).
-- 🎨 **CSS Struggle**: Habis 3 jam cuma buat nengahin posisi `<div>` biar presisi di semua layar.
-- ⚙️ **Backend Reality**: Service Go jalan mulus di `localhost`, begitu masuk cloud langsung overthinking.
-- 🐛 **Debugging Pro**: Nambahin `console.log("masuk sini ga")` di 50 baris kode adalah jalan ninjaku.
-- 🚀 **Git Protocol**: `git add .` ➜ `git commit -m "bismillah lancar"` ➜ `git push --force` & berdoa.
-- ☕ **Daily Fuel**: Kopi hitam panas, Stack Overflow, dan doa orang tua.
+-  **Networking & Security**: Hobi sniffing packet data pake Wireshark & explore traffic analisis.
+-  **Backend Reality**: Service Go jalan mulus di `localhost`, begitu masuk cloud langsung overthinking.
+-  **Debugging**: Nambahin `console.log("masuk sini ga")` di 50 baris kode adalah jalan ninjaku.
+-  **Git**: `git add .` ➜ `git commit -m "bismillah lancar"` ➜ `git push --force` & berdoa.
+-  **Daily Fuel**: Matca panas, Stack Overflow, dan doa orang tua.
 
 ---
 
