@@ -76,9 +76,11 @@ const alKahfi = {
 
 ---
 
+### 🏆 Achievements
+
 <div align="center">
   <a href="https://github.com/Kafiii0?tab=achievements">
-    <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/badges/achievements-glow.svg" alt="Badges" width="100%" />
+    <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/badges/achievements-glow.svg" alt="Achievements" width="100%" />
   </a>
 </div>
 
