@@ -6,22 +6,9 @@
 
 ### 💫 About Me
 
-```javascript
-const alKahfi = {
-  pronouns: "he/him",
-  location: "Bandung, Indonesia",
-  role: "Web Architecture & Software Developer",
-  currentFocus: ["Responsive Web Apps", "Go Services", "IoT & Network Analysis"],
-  portfolio: "https://alkahfi.my.id",
-  hobbies: ["Coding 💻", "Exploring Tech 🔍", "Coffee ☕"]
-};
-```
-
-- 🔭 Building clean, responsive web architecture with **HTML, Tailwind CSS, & JavaScript**.
-- ⚙️ Exploring backend engineering with **Go (Golang)** and **IoT management**.
-- 🚀 Passionate about performance, clean code, and intuitive user experiences.
-- 💬 Ask me about **Frontend Architecture, Responsive Design, or Web Performance**.
-- 📫 Reach out to me: **[alkahfi.my.id](https://alkahfi.my.id)** or **[fahrialkahfiiii@gmail.com](mailto:fahrialkahfiiii@gmail.com)**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/about-card.png" alt="About KV" width="100%" />
+</div>
 
 ---
 
