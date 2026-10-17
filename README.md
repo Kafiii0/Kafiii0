@@ -154,11 +154,4 @@ const alKahfi = {
   <img src="./github-contribution-grid-snake.svg" alt="Snake Contribution Animation" width="100%" />
 </div>
 
----
-
-### 💬 Daily Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="100%" />
-</div>
 
