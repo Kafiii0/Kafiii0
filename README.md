@@ -15,7 +15,7 @@
 
   <!-- Profile Views & Social Badges -->
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Kaflii0&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=Kafiii0&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   </p>
 
 </div>
@@ -49,8 +49,8 @@ const alKahfi = {
   <a href="https://alkahfi.my.id" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-alkahfi.my.id-0070F3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://github.com/Kaflii0" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Kaflii0-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/Kafiii0" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Kafiii0-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:fahrialkahfiiii@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -119,14 +119,14 @@ const alKahfi = {
 <div align="center">
   <p align="center">
     <!-- GitHub Stats Card -->
-    <img src="https://github-readme-stats.vercel.app/api?username=Kaflii0&show_icons=true&theme=tokyonight&hide_border=false&rank_icon=github&count_private=true" alt="Kaflii0's GitHub Stats" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Kafiii0&show_icons=true&theme=tokyonight&hide_border=false&rank_icon=github&count_private=true" alt="Kafiii0's GitHub Stats" width="48%" />
     <!-- Most Used Languages Card -->
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaflii0&layout=compact&theme=tokyonight&hide_border=false&langs_count=6" alt="Top Languages" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kafiii0&layout=compact&theme=tokyonight&hide_border=false&langs_count=6" alt="Top Languages" width="48%" />
   </p>
 
   <p align="center">
     <!-- GitHub Streak Stats -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaflii0&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="97%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kafiii0&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="97%" />
   </p>
 </div>
 
@@ -135,11 +135,11 @@ const alKahfi = {
 ### 🐍 Contribution Activity (Snake Eater)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kaflii0/Kaflii0/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>⭐️ Profile created with care for <b>Al Kahfi (Kaflii0)</b> &bull; Bandung, Indonesia 🇮🇩</sub>
+  <sub>⭐️ Profile created with care for <b>Al Kahfi (Kafiii0)</b> &bull; Bandung, Indonesia 🇮🇩</sub>
 </div>
