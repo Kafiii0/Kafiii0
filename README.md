@@ -1,24 +1,5 @@
 <div align="center">
-
-  <!-- Aesthetic Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,18,24&height=190&section=header&text=KV&fontSize=64&fontAlignY=38&desc=Building%20clean,%20responsive%20web%20architecture%20&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
-
-  <!-- Dynamic Typing SVG -->
-  <a href="https://alkahfi.my.id">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=60A5FA&center=true&vCenter=true&width=550&lines=Hi+there,+I'm+KV+👋;Web+Architecture+%26+Frontend+Dev+💻;Exploring+Go+(Golang)+%26+IoT+Systems+⚙️;2%2C300%2B+Contributions+and+Counting+🔥;Always+Building+%26+Learning+🚀" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    <strong>📍 Bandung, Indonesia</strong> &nbsp;&bull;&nbsp; 
-    <strong>🌐 <a href="https://alkahfi.my.id" target="_blank">alkahfi.my.id</a></strong> &nbsp;&bull;&nbsp;
-    <strong>👨‍💻 he/him</strong>
-  </p>
-
-  <!-- Profile Views Counter -->
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Kafiii0&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-  </p>
-
+  <img src="./assets/terminal-header.svg" alt="KV Terminal Header" width="100%" />
 </div>
 
 ---
