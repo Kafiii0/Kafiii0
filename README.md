@@ -1,14 +1,21 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/terminal-header.png" alt="KV Terminal Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/matrix-header.png" alt="KV Matrix Header" width="100%" />
 </div>
 
 ---
 
 ### 💫 About Me
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/main/assets/about-card.png" alt="About KV" width="100%" />
-</div>
+> **"Bisa Inspect Element langsung ngerasa Mr. Robot 🕵️‍♂️"**
+
+Halo! Saya **KV (Al Kahfi)** — seorang **Pentester Pemula & Fullstack Begadang 🛡️💻** yang suka ngulik arsitektur web dan sistem jaringan.
+
+- 🔍 **Networking & Security**: Hobi sniffing packet data pake Wireshark & explore traffic analisis (*PcapAnalyzer*).
+- 🎨 **CSS Struggle**: Habis 3 jam cuma buat nengahin posisi `<div>` biar presisi di semua layar.
+- ⚙️ **Backend Reality**: Service Go jalan mulus di `localhost`, begitu masuk cloud langsung overthinking.
+- 🐛 **Debugging Pro**: Nambahin `console.log("masuk sini ga")` di 50 baris kode adalah jalan ninjaku.
+- 🚀 **Git Protocol**: `git add .` ➜ `git commit -m "bismillah lancar"` ➜ `git push --force` & berdoa.
+- ☕ **Daily Fuel**: Kopi hitam panas, Stack Overflow, dan doa orang tua.
 
 ---
 
