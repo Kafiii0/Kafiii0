@@ -78,14 +78,9 @@
 <div align="center">
   <p align="center">
     <!-- GitHub Stats Card -->
-    <img src="https://github-readme-stats.vercel.app/api?username=Kafiii0&show_icons=true&theme=tokyonight&hide_border=false&rank_icon=github&count_private=true" alt="Kafiii0's GitHub Stats" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Kafiii0&show_icons=true&theme=tokyonight&hide_border=false&rank_icon=github" height="170" alt="Kafiii0's GitHub Stats" />
     <!-- Most Used Languages Card -->
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kafiii0&layout=compact&theme=tokyonight&hide_border=false&langs_count=6" alt="Top Languages" width="48%" />
-  </p>
-
-  <p align="center">
-    <!-- GitHub Streak Stats -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kafiii0&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="97%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kafiii0&layout=compact&theme=tokyonight&hide_border=false&langs_count=6" height="170" alt="Top Languages" />
   </p>
 </div>
 
