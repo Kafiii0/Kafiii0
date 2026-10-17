@@ -133,10 +133,10 @@ const alKahfi = {
 
 ---
 
-### 🔥 Contribution Activity
+### 🐍 Contribution Activity (Snake Game)
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/38bdf8/Kafiii0" alt="Kafiii0's Contribution Graph" width="100%" />
+  <img src="./github-contribution-grid-snake.svg" alt="Snake Contribution Animation" width="100%" />
 </div>
 
 ---
@@ -147,10 +147,3 @@ const alKahfi = {
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="100%" />
 </div>
 
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,18,24&height=100&section=footer" width="100%" alt="Footer Banner" />
-  <br>
-  <sub>⭐️ Crafted with care for <b>KV (Kafiii0)</b> &bull; Bandung, Indonesia 🇮🇩</sub>
-</div>
