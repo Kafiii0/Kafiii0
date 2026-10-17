@@ -1,19 +1,20 @@
 <div align="center">
 
-  <!-- Header Typing Animation -->
+  <!-- Aesthetic Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,18,24&height=190&section=header&text=Al%20Kahfi&fontSize=52&fontAlignY=38&desc=Building%20clean,%20responsive%20web%20architecture%20&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
+
+  <!-- Dynamic Typing SVG -->
   <a href="https://alkahfi.my.id">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=500&lines=Hi+there,+I'm+Al+Kahfi+👋;Web+Architecture+%26+Frontend+Dev;Exploring+Go+%26+IoT+Systems;Always+Building+%26+Learning+🚀" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=60A5FA&center=true&vCenter=true&width=550&lines=Hi+there,+I'm+Al+Kahfi+👋;Web+Architecture+%26+Frontend+Dev+💻;Exploring+Go+(Golang)+%26+IoT+Systems+⚙️;2%2C300%2B+Contributions+and+Counting+🔥;Always+Building+%26+Learning+🚀" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    <strong>Building clean, responsive web architecture & modern digital experiences</strong>
+    <strong>📍 Bandung, Indonesia</strong> &nbsp;&bull;&nbsp; 
+    <strong>🌐 <a href="https://alkahfi.my.id" target="_blank">alkahfi.my.id</a></strong> &nbsp;&bull;&nbsp;
+    <strong>👨‍💻 he/him</strong>
   </p>
 
-  <p align="center">
-    📍 Bandung, Indonesia &nbsp;|&nbsp; 🌐 <a href="https://alkahfi.my.id" target="_blank">alkahfi.my.id</a>
-  </p>
-
-  <!-- Profile Views & Social Badges -->
+  <!-- Profile Views Counter -->
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=Kafiii0&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   </p>
@@ -35,11 +36,11 @@ const alKahfi = {
 };
 ```
 
-- 🔭 Currently building clean, responsive web architecture with **HTML, Tailwind CSS, & JavaScript**.
+- 🔭 Building clean, responsive web architecture with **HTML, Tailwind CSS, & JavaScript**.
 - ⚙️ Exploring backend engineering with **Go (Golang)** and **IoT management**.
 - 🚀 Passionate about performance, clean code, and intuitive user experiences.
-- 💬 Ask me about **Frontend Development, Responsive Design, or Web Architecture**.
-- 📫 Reach out to me: **[alkahfi.my.id](https://alkahfi.my.id)**
+- 💬 Ask me about **Frontend Architecture, Responsive Design, or Web Performance**.
+- 📫 Reach out to me: **[alkahfi.my.id](https://alkahfi.my.id)** or **[fahrialkahfiiii@gmail.com](mailto:fahrialkahfiiii@gmail.com)**
 
 ---
 
@@ -53,12 +54,12 @@ const alKahfi = {
     <img src="https://img.shields.io/badge/GitHub-Kafiii0-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:fahrialkahfiiii@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-fahrialkahfiiii-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://instagram.com/yourusername" target="_blank">
+  <a href="https://instagram.com" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://linkedin.com/in/yourusername" target="_blank">
+  <a href="https://linkedin.com" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
@@ -89,7 +90,7 @@ const alKahfi = {
 </p>
 
 <details>
-<summary><b>✨ Alternatively, view as pill badges (Like the reference image)</b></summary>
+<summary><b>✨ View Tech Stack as Pill Badges</b></summary>
 <br>
 
 <p align="left">
@@ -132,14 +133,24 @@ const alKahfi = {
 
 ---
 
-### 🐍 Contribution Activity (Snake Eater)
+### 🔥 Contribution Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kafiii0/Kafiii0/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://ghchart.rshah.org/38bdf8/Kafiii0" alt="Kafiii0's Contribution Graph" width="100%" />
+</div>
+
+---
+
+### 💬 Daily Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>⭐️ Profile created with care for <b>Al Kahfi (Kafiii0)</b> &bull; Bandung, Indonesia 🇮🇩</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,18,24&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <br>
+  <sub>⭐️ Crafted with care for <b>Al Kahfi (Kafiii0)</b> &bull; Bandung, Indonesia 🇮🇩</sub>
 </div>
