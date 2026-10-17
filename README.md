@@ -67,12 +67,6 @@ const alKahfi = {
   </a>
 </p>
 
-<!-- Live Animated Blinking Discord Presence Card -->
-<p align="left">
-  <a href="https://discord.com" target="_blank">
-    <img src="./assets/discord-status.svg" alt="Discord Live Status" />
-  </a>
-</p>
 
 ---
 
@@ -81,21 +75,21 @@ const alKahfi = {
 #### 🚀 Languages & Frameworks
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,react,nextjs,go,nodejs,express,python,c,cpp" alt="Tech Stack Icons" />
+    <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,ts,react,nextjs,vue,angular,svelte,go,nodejs,express,fastapi,python,c,cpp,rust" alt="Tech Stack Icons" />
   </a>
 </p>
 
 #### 🗄️ Databases & Cloud / Backend
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,sqlite,firebase,redis,prisma" alt="Databases Icons" />
+    <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,sqlite,firebase,redis,prisma,graphql,aws,gcp,docker,kubernetes" alt="Databases Icons" />
   </a>
 </p>
 
-#### 🛠️ Tools & Environments
+#### 🛠️ Tools, Platforms & Ecosystem
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,bash,figma,notion,docker,discord,vercel,npm" alt="Tools Icons" />
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,postman,linux,ubuntu,bash,powershell,figma,notion,discord,spotify,vercel,netlify,npm,yarn,vite" alt="Tools Icons" />
   </a>
 </p>
 
@@ -125,6 +119,14 @@ const alKahfi = {
 </p>
 
 </details>
+
+---
+
+### ✨ Badges & Achievements
+
+<div align="center">
+  <img src="./assets/shiny-badges.svg" alt="Holographic Claimed Badges" width="100%" />
+</div>
 
 ---
 
